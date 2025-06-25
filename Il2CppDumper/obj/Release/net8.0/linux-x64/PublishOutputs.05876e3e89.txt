@@ -1,0 +1,17 @@
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\Il2CppDumper
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\config.json
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\ghidra.py
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\ghidra_wasm.py
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\ghidra_with_struct.py
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\ida.py
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\ida_py3.py
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\ida_with_struct.py
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\ida_with_struct_py3.py
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\il2cpp_header_to_ghidra.py
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\Il2CppDumper.dll
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\Il2CppDumper.deps.json
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\Il2CppDumper.runtimeconfig.json
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\Mono.Cecil.Mdb.dll
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\Mono.Cecil.Pdb.dll
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\Mono.Cecil.Rocks.dll
+C:\Users\fabia\OneDrive\Documentos\auto_bot_test\yuru\Il2CppDumper\bin\Release\net8.0\linux-x64\publish\Mono.Cecil.dll
