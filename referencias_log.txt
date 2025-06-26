@@ -1,0 +1,1664 @@
+🔎 Referências customizadas para arquivo dump.cs
+
+
+=== [ Aes256 ] ===
+
+[linha 26239]
+
+	// RVA: 0x21A6 Offset: 0x21A6 VA: 0x21A6
+	private static void .cctor() { }
+}
+
+// Namespace: YT
+public class Aes256 // TypeDefIndex: 499
+{
+	// Fields
+	public static readonly int BlockBitSize; // 0x0
+	public static readonly int KeyBitSize; // 0x4
+
+	// Methods
+------------------------------------------------------------
+
+=== [ EncryptoBody ] ===
+
+[linha 25934]
+	public void .ctor(HttpClient _client, string _log) { }
+
+	// RVA: 0x21AA Offset: 0x21AA VA: 0x21AA
+	public WebRequestClient Build(string _uri, ApiRequestBase _request) { }
+
+	// RVA: 0x21AB Offset: 0x21AB VA: 0x21AB
+	private byte[] EncryptoBody(byte[] _ck, byte[] _body) { }
+
+	// RVA: 0x21AC Offset: 0x21AC VA: 0x21AC
+	private byte[] DecryptoBody(byte[] _ck, byte[] _body) { }
+
+	// RVA: 0x21AD Offset: 0x21AD VA: 0x21AD Slot: 4
+	protected virtual void ModifyHeader(WebRequestClient _request) { }
+------------------------------------------------------------
+
+=== [ DecryptoBody ] ===
+
+[linha 25937]
+	public WebRequestClient Build(string _uri, ApiRequestBase _request) { }
+
+	// RVA: 0x21AB Offset: 0x21AB VA: 0x21AB
+	private byte[] EncryptoBody(byte[] _ck, byte[] _body) { }
+
+	// RVA: 0x21AC Offset: 0x21AC VA: 0x21AC
+	private byte[] DecryptoBody(byte[] _ck, byte[] _body) { }
+
+	// RVA: 0x21AD Offset: 0x21AD VA: 0x21AD Slot: 4
+	protected virtual void ModifyHeader(WebRequestClient _request) { }
+
+	// RVA: 0x21AE Offset: 0x21AE VA: 0x21AE
+	private void ResponseActionInvoke(ActionList<BaseResponse> action, WebRequestResponse _data) { }
+------------------------------------------------------------
+
+[linha 107864]
+{
+	// Fields
+	private static readonly ReadOnlyCollection<int> kErrorStatusCodeAuth; // 0x0
+	private static readonly ReadOnlyCollection<int> kErrorStatusCodeServerUpgrade; // 0x4
+	[CompilerGenerated]
+	private UnityWebRequest <www>k__BackingField; // 0x8
+	private byte[] DecryptoBody; // 0xC
+
+	// Properties
+	private UnityWebRequest www { get; set; }
+
+	// Methods
+
+------------------------------------------------------------
+
+=== [ Build ] ===
+
+[linha 25892]
+	// Methods
+
+	// RVA: 0x21B0 Offset: 0x21B0 VA: 0x21B0
+	public void .ctor() { }
+
+	// RVA: 0x21B1 Offset: 0x21B1 VA: 0x21B1
+	internal void <Build>b__0(WebRequestResponse _data) { }
+
+	// RVA: 0x21B2 Offset: 0x21B2 VA: 0x21B2
+	internal void <Build>b__1(WebRequestResponse _data) { }
+
+	// RVA: 0x21B3 Offset: 0x21B3 VA: 0x21B3
+	internal void <Build>b__2(WebRequestResponse _data) { }
+------------------------------------------------------------
+
+[linha 25895]
+	public void .ctor() { }
+
+	// RVA: 0x21B1 Offset: 0x21B1 VA: 0x21B1
+	internal void <Build>b__0(WebRequestResponse _data) { }
+
+	// RVA: 0x21B2 Offset: 0x21B2 VA: 0x21B2
+	internal void <Build>b__1(WebRequestResponse _data) { }
+
+	// RVA: 0x21B3 Offset: 0x21B3 VA: 0x21B3
+	internal void <Build>b__2(WebRequestResponse _data) { }
+
+	// RVA: 0x21B4 Offset: 0x21B4 VA: 0x21B4
+	internal void <Build>b__3() { }
+------------------------------------------------------------
+
+[linha 25898]
+	internal void <Build>b__0(WebRequestResponse _data) { }
+
+	// RVA: 0x21B2 Offset: 0x21B2 VA: 0x21B2
+	internal void <Build>b__1(WebRequestResponse _data) { }
+
+	// RVA: 0x21B3 Offset: 0x21B3 VA: 0x21B3
+	internal void <Build>b__2(WebRequestResponse _data) { }
+
+	// RVA: 0x21B4 Offset: 0x21B4 VA: 0x21B4
+	internal void <Build>b__3() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 25901]
+	internal void <Build>b__1(WebRequestResponse _data) { }
+
+	// RVA: 0x21B3 Offset: 0x21B3 VA: 0x21B3
+	internal void <Build>b__2(WebRequestResponse _data) { }
+
+	// RVA: 0x21B4 Offset: 0x21B4 VA: 0x21B4
+	internal void <Build>b__3() { }
+}
+
+// Namespace: 
+private class HttpClient.HttpClientBuilder // TypeDefIndex: 492
+{
+	// Fields
+------------------------------------------------------------
+
+[linha 25931]
+	protected string get_log() { }
+
+	// RVA: 0x21A9 Offset: 0x21A9 VA: 0x21A9
+	public void .ctor(HttpClient _client, string _log) { }
+
+	// RVA: 0x21AA Offset: 0x21AA VA: 0x21AA
+	public WebRequestClient Build(string _uri, ApiRequestBase _request) { }
+
+	// RVA: 0x21AB Offset: 0x21AB VA: 0x21AB
+	private byte[] EncryptoBody(byte[] _ck, byte[] _body) { }
+
+	// RVA: 0x21AC Offset: 0x21AC VA: 0x21AC
+	private byte[] DecryptoBody(byte[] _ck, byte[] _body) { }
+------------------------------------------------------------
+
+[linha 30438]
+
+	[CompilerGenerated]
+	// RVA: 0x244E Offset: 0x244E VA: 0x244E Slot: 6
+	public void set_delay(float value) { }
+
+	// RVA: 0x244F Offset: 0x244F VA: 0x244F
+	public static DramaCommand.WaitTap Build() { }
+
+	// RVA: 0x2450 Offset: 0x2450 VA: 0x2450
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 30473]
+
+	[CompilerGenerated]
+	// RVA: 0x2453 Offset: 0x2453 VA: 0x2453 Slot: 6
+	public void set_delay(float value) { }
+
+	// RVA: 0x2454 Offset: 0x2454 VA: 0x2454
+	public static DramaCommand.WaitTime Build(float _waitTime) { }
+
+	// RVA: 0x2455 Offset: 0x2455 VA: 0x2455
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 30507]
+
+	[CompilerGenerated]
+	// RVA: 0x2458 Offset: 0x2458 VA: 0x2458 Slot: 6
+	public void set_delay(float value) { }
+
+	// RVA: 0x2459 Offset: 0x2459 VA: 0x2459
+	public static DramaCommand.WaitTutorialStep Build() { }
+
+	// RVA: 0x245A Offset: 0x245A VA: 0x245A
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 30542]
+
+	[CompilerGenerated]
+	// RVA: 0x245D Offset: 0x245D VA: 0x245D Slot: 6
+	public void set_delay(float value) { }
+
+	// RVA: 0x245E Offset: 0x245E VA: 0x245E
+	public static DramaCommand.TapActive Build(bool _active) { }
+
+	// RVA: 0x245F Offset: 0x245F VA: 0x245F
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 30577]
+
+	[CompilerGenerated]
+	// RVA: 0x2462 Offset: 0x2462 VA: 0x2462 Slot: 6
+	public void set_delay(float value) { }
+
+	// RVA: 0x2463 Offset: 0x2463 VA: 0x2463
+	public static DramaCommand.SetWindowType Build(string _windowType) { }
+
+	// RVA: 0x2464 Offset: 0x2464 VA: 0x2464
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 30615]
+
+	[CompilerGenerated]
+	// RVA: 0x2467 Offset: 0x2467 VA: 0x2467 Slot: 6
+	public void set_delay(float value) { }
+
+	// RVA: 0x2468 Offset: 0x2468 VA: 0x2468
+	public static DramaCommand.Message Build(string _name, string _text, string _direction, string _endMouth) { }
+
+	// RVA: 0x2469 Offset: 0x2469 VA: 0x2469
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 30663]
+
+	[CompilerGenerated]
+	// RVA: 0x246E Offset: 0x246E VA: 0x246E
+	public void set_assetName(string value) { }
+
+	// RVA: 0x246F Offset: 0x246F VA: 0x246F
+	public static DramaCommand.StandCharacterOn Build(string _assetPath, string _direction, string _face, string _motion) { }
+
+	// RVA: 0x2470 Offset: 0x2470 VA: 0x2470
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 30700]
+
+	[CompilerGenerated]
+	// RVA: 0x2473 Offset: 0x2473 VA: 0x2473 Slot: 6
+	public void set_delay(float value) { }
+
+	// RVA: 0x2474 Offset: 0x2474 VA: 0x2474
+	public static DramaCommand.StandCharacterFace Build(string _direction, string _face, string _motion) { }
+
+	// RVA: 0x2475 Offset: 0x2475 VA: 0x2475
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 30736]
+
+	[CompilerGenerated]
+	// RVA: 0x2478 Offset: 0x2478 VA: 0x2478 Slot: 6
+	public void set_delay(float value) { }
+
+	// RVA: 0x2479 Offset: 0x2479 VA: 0x2479
+	public static DramaCommand.StandCharacterColor Build(string _direction, Color _color) { }
+
+	// RVA: 0x247A Offset: 0x247A VA: 0x247A
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 30772]
+
+	[CompilerGenerated]
+	// RVA: 0x247D Offset: 0x247D VA: 0x247D Slot: 6
+	public void set_delay(float value) { }
+
+	// RVA: 0x247E Offset: 0x247E VA: 0x247E
+	public static DramaCommand.StandCharacterPhysic Build(string _direction, bool _isOn) { }
+
+	// RVA: 0x247F Offset: 0x247F VA: 0x247F
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 30808]
+
+	[CompilerGenerated]
+	// RVA: 0x2482 Offset: 0x2482 VA: 0x2482 Slot: 6
+	public void set_delay(float value) { }
+
+	// RVA: 0x2483 Offset: 0x2483 VA: 0x2483
+	public static DramaCommand.StandCharacterIntroduce Build(string _direction, bool _isOn) { }
+
+	// RVA: 0x2484 Offset: 0x2484 VA: 0x2484
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 30857]
+
+	[CompilerGenerated]
+	// RVA: 0x2489 Offset: 0x2489 VA: 0x2489
+	public void set_assetName(string value) { }
+
+	// RVA: 0x248A Offset: 0x248A VA: 0x248A
+	public static DramaCommand.SimpleMessage Build(string _text, string _assetPath, string _face, string _motion, bool _arrow) { }
+
+	// RVA: 0x248B Offset: 0x248B VA: 0x248B
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 30891]
+
+	[CompilerGenerated]
+	// RVA: 0x248E Offset: 0x248E VA: 0x248E Slot: 6
+	public void set_delay(float value) { }
+
+	// RVA: 0x248F Offset: 0x248F VA: 0x248F
+	public static DramaCommand.ResetSimpleMessages Build() { }
+
+	// RVA: 0x2490 Offset: 0x2490 VA: 0x2490
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 30926]
+
+	[CompilerGenerated]
+	// RVA: 0x2493 Offset: 0x2493 VA: 0x2493 Slot: 6
+	public void set_delay(float value) { }
+
+	// RVA: 0x2494 Offset: 0x2494 VA: 0x2494
+	public static DramaCommand.DisplaySkipButton Build(bool _display) { }
+
+	// RVA: 0x2495 Offset: 0x2495 VA: 0x2495
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 30960]
+
+	[CompilerGenerated]
+	// RVA: 0x2498 Offset: 0x2498 VA: 0x2498 Slot: 6
+	public void set_delay(float value) { }
+
+	// RVA: 0x2499 Offset: 0x2499 VA: 0x2499
+	public static DramaCommand.EndSkip Build() { }
+
+	// RVA: 0x249A Offset: 0x249A VA: 0x249A
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 30995]
+
+	[CompilerGenerated]
+	// RVA: 0x249D Offset: 0x249D VA: 0x249D Slot: 6
+	public void set_delay(float value) { }
+
+	// RVA: 0x249E Offset: 0x249E VA: 0x249E
+	public static DramaCommand.ChangeBGM Build(string _bgm) { }
+
+	// RVA: 0x249F Offset: 0x249F VA: 0x249F
+	public void .ctor() { }
+}
+
+// Namespace: YT
+------------------------------------------------------------
+
+[linha 48371]
+	public void set_type(NotificationModel.Type value) { }
+
+	// RVA: 0x3093 Offset: 0x3093 VA: 0x3093
+	private void .ctor() { }
+
+	// RVA: 0x3094 Offset: 0x3094 VA: 0x3094
+	public static NotificationModel Build(string _text, NotificationModel.Type _type = 0) { }
+}
+
+// Namespace: YT
+[Extension]
+public static class NotificationModelExtensions // TypeDefIndex: 1087
+{
+------------------------------------------------------------
+
+[linha 49891]
+
+	[CompilerGenerated]
+	// RVA: 0x3196 Offset: 0x3196 VA: 0x3196
+	public void set_cancel(string value) { }
+
+	// RVA: 0x3197 Offset: 0x3197 VA: 0x3197
+	public static SystemDialogModel Build(string _name) { }
+
+	// RVA: 0x3198 Offset: 0x3198 VA: 0x3198
+	public static SystemDialogModel Build(string _name, string[] _mainArgs) { }
+
+	// RVA: 0x3199 Offset: 0x3199 VA: 0x3199
+	public static SystemDialogModel BuildAdvanced(string _name, string[] _titleArgs, string[] _subTitleArgs, string[] _mainArgs, string[] _button1Args, string[] _button2Args) { }
+------------------------------------------------------------
+
+[linha 49894]
+	public void set_cancel(string value) { }
+
+	// RVA: 0x3197 Offset: 0x3197 VA: 0x3197
+	public static SystemDialogModel Build(string _name) { }
+
+	// RVA: 0x3198 Offset: 0x3198 VA: 0x3198
+	public static SystemDialogModel Build(string _name, string[] _mainArgs) { }
+
+	// RVA: 0x3199 Offset: 0x3199 VA: 0x3199
+	public static SystemDialogModel BuildAdvanced(string _name, string[] _titleArgs, string[] _subTitleArgs, string[] _mainArgs, string[] _button1Args, string[] _button2Args) { }
+
+	// RVA: 0x319A Offset: 0x319A VA: 0x319A
+	public void .ctor() { }
+------------------------------------------------------------
+
+[linha 50298]
+
+	[CompilerGenerated]
+	// RVA: 0x31D3 Offset: 0x31D3 VA: 0x31D3
+	public void set_type(ToastModel.Type value) { }
+
+	// RVA: 0x31D4 Offset: 0x31D4 VA: 0x31D4
+	public static ToastModel Build(string _mainText, string _subText, ToastModel.Type _type = 0, bool _autoClose = True) { }
+
+	// RVA: 0x31D5 Offset: 0x31D5 VA: 0x31D5
+	public void .ctor() { }
+}
+
+// Namespace: YT
+------------------------------------------------------------
+
+[linha 61633]
+	private static void .cctor() { }
+
+	// RVA: 0x3980 Offset: 0x3980 VA: 0x3980
+	public void .ctor() { }
+
+	// RVA: 0x3981 Offset: 0x3981 VA: 0x3981
+	internal GachaResultViewModel.GachaResultReward <Build>b__9_0(GachaReward _x) { }
+}
+
+// Namespace: 
+[CompilerGenerated]
+private sealed class GachaResultViewModel.<>c__DisplayClass9_0 // TypeDefIndex: 1417
+{
+------------------------------------------------------------
+
+[linha 61649]
+	// Methods
+
+	// RVA: 0x3982 Offset: 0x3982 VA: 0x3982
+	public void .ctor() { }
+
+	// RVA: 0x3983 Offset: 0x3983 VA: 0x3983
+	internal bool <Build>b__1(GachaResultViewModel.GachaResultReward _x) { }
+}
+
+// Namespace: YT
+public class GachaResultViewModel // TypeDefIndex: 1418
+{
+	// Fields
+------------------------------------------------------------
+
+[linha 61685]
+
+	[CompilerGenerated]
+	// RVA: 0x3973 Offset: 0x3973 VA: 0x3973
+	public void set_rewards(GachaResultViewModel.GachaResultReward[] value) { }
+
+	// RVA: 0x3974 Offset: 0x3974 VA: 0x3974
+	public static GachaResultViewModel Build(GachaRollResult _rollResult) { }
+
+	// RVA: 0x3975 Offset: 0x3975 VA: 0x3975
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 76004]
+	public void set_connectionName(string value) { }
+
+	// RVA: 0x433C Offset: 0x433C VA: 0x433C
+	private void .ctor() { }
+
+	// RVA: 0x433D Offset: 0x433D VA: 0x433D
+	public static TitleViewModel Build() { }
+}
+
+// Namespace: 
+public sealed class TitleVisualPresenter.StateEvent : MulticastDelegate // TypeDefIndex: 1794
+{
+	// Methods
+------------------------------------------------------------
+
+[linha 81222]
+	public static DebugProductInfoItem AddComponentTo(GameObject _obj) { }
+
+	// RVA: 0x4650 Offset: 0x4650 VA: 0x4650
+	private void AttachInspectorComponents() { }
+
+	// RVA: 0x4651 Offset: 0x4651 VA: 0x4651
+	public void Build(DebugProductInfoItem.Config _config) { }
+
+	// RVA: 0x4652 Offset: 0x4652 VA: 0x4652
+	public void .ctor() { }
+
+	[CompilerGenerated]
+	// RVA: 0x4653 Offset: 0x4653 VA: 0x4653
+------------------------------------------------------------
+
+[linha 81229]
+
+	// RVA: 0x4652 Offset: 0x4652 VA: 0x4652
+	public void .ctor() { }
+
+	[CompilerGenerated]
+	// RVA: 0x4653 Offset: 0x4653 VA: 0x4653
+	private void <Build>b__19_0() { }
+}
+
+// Namespace: YT
+public class Core // TypeDefIndex: 1938
+{
+	// Fields
+------------------------------------------------------------
+
+[linha 98104]
+	public static Character GetByClientId(int _tCharacterClientId) { }
+
+	// RVA: 0x51EB Offset: 0x51EB VA: 0x51EB
+	public static Character GetByMCharacterId(int _mCharacterId) { }
+
+	// RVA: 0x51EC Offset: 0x51EC VA: 0x51EC
+	public static Character Build(int _mCharacterId) { }
+
+	// RVA: 0x51ED Offset: 0x51ED VA: 0x51ED
+	public static Character GetDummy(int _mCharacterId) { }
+
+	// RVA: 0x51EE Offset: 0x51EE VA: 0x51EE
+	public static void ClearCache() { }
+------------------------------------------------------------
+
+[linha 99662]
+	public DateTime GetStarterPackEligibilityEndDate() { }
+
+	// RVA: 0x532B Offset: 0x532B VA: 0x532B
+	public bool IsEligibleForStarterPack() { }
+
+	// RVA: 0x532C Offset: 0x532C VA: 0x532C
+	public static User Build(TUserData _tUser) { }
+}
+
+// Namespace: YT.Data
+[Serializable]
+public class ConnectionSettings : PlayerPrefsData // TypeDefIndex: 2363
+{
+------------------------------------------------------------
+
+[linha 115943]
+	internal MonoAssemblyName.<public_key_token>e__FixedBuffer public_key_token; // 0x10
+	internal uint hash_alg; // 0x24
+	internal uint hash_len; // 0x28
+	internal uint flags; // 0x2C
+	internal ushort major; // 0x30
+	internal ushort minor; // 0x32
+	internal ushort build; // 0x34
+	internal ushort revision; // 0x36
+	internal ushort arch; // 0x38
+}
+
+// Namespace: Mono
+internal struct ValueTuple // TypeDefIndex: 2732
+------------------------------------------------------------
+
+[linha 130592]
+	private readonly int _Build; // 0x10
+	private readonly int _Revision; // 0x14
+
+	// Properties
+	public int Major { get; }
+	public int Minor { get; }
+	public int Build { get; }
+	public int Revision { get; }
+	private int DefaultFormatFieldCount { get; }
+
+	// Methods
+
+	// RVA: 0x18871 Offset: 0x18871 VA: 0x18871
+------------------------------------------------------------
+
+[linha 130599]
+	public int Revision { get; }
+	private int DefaultFormatFieldCount { get; }
+
+	// Methods
+
+	// RVA: 0x18871 Offset: 0x18871 VA: 0x18871
+	public void .ctor(int major, int minor, int build, int revision) { }
+
+	// RVA: 0x18872 Offset: 0x18872 VA: 0x18872
+	public void .ctor(int major, int minor, int build) { }
+
+	// RVA: 0x18873 Offset: 0x18873 VA: 0x18873
+	public void .ctor(int major, int minor) { }
+------------------------------------------------------------
+
+[linha 130602]
+	// Methods
+
+	// RVA: 0x18871 Offset: 0x18871 VA: 0x18871
+	public void .ctor(int major, int minor, int build, int revision) { }
+
+	// RVA: 0x18872 Offset: 0x18872 VA: 0x18872
+	public void .ctor(int major, int minor, int build) { }
+
+	// RVA: 0x18873 Offset: 0x18873 VA: 0x18873
+	public void .ctor(int major, int minor) { }
+
+	// RVA: 0x18874 Offset: 0x18874 VA: 0x18874
+	public void .ctor(string version) { }
+------------------------------------------------------------
+
+[linha 157209]
+{
+	// Fields
+	private string name; // 0x8
+	private string codebase; // 0xC
+	private int major; // 0x10
+	private int minor; // 0x14
+	private int build; // 0x18
+	private int revision; // 0x1C
+	private CultureInfo cultureinfo; // 0x20
+	private AssemblyNameFlags flags; // 0x24
+	private AssemblyHashAlgorithm hashalg; // 0x28
+	private StrongNameKeyPair keypair; // 0x2C
+	private byte[] publicKey; // 0x30
+------------------------------------------------------------
+
+[linha 200061]
+	// Methods
+
+	// RVA: 0x10F22 Offset: 0x10F22 VA: 0x10F22
+	public void .ctor() { }
+
+	// RVA: 0x10F23 Offset: 0x10F23 VA: 0x10F23
+	public static PropagationPaths Build(VisualElement elem, EventBase evt, int eventCategories) { }
+
+	// RVA: 0x10F24 Offset: 0x10F24 VA: 0x10F24 Slot: 4
+	public void Dispose() { }
+
+	// RVA: 0x10F25 Offset: 0x10F25 VA: 0x10F25
+	private static void .cctor() { }
+------------------------------------------------------------
+
+[linha 223573]
+	|
+	|-RVA: 0x1C2F2 Offset: 0x1C2F2 VA: 0x1C2F2
+	|-UQueryBuilder<object>.FinishCurrentSelector
+	*/
+
+	// RVA: -1 Offset: -1
+	public UQueryState<T> Build() { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x1C2ED Offset: 0x1C2ED VA: 0x1C2ED
+	|-UQueryBuilder<object>.Build
+	*/
+
+------------------------------------------------------------
+
+[linha 223577]
+
+	// RVA: -1 Offset: -1
+	public UQueryState<T> Build() { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x1C2ED Offset: 0x1C2ED VA: 0x1C2ED
+	|-UQueryBuilder<object>.Build
+	*/
+
+	// RVA: -1 Offset: -1
+	public List<T> ToList() { }
+	/* GenericInstMethod :
+	|
+------------------------------------------------------------
+
+[linha 227713]
+	// Methods
+
+	// RVA: -1 Offset: -1 Slot: 4
+	public abstract bool RequiresStencilMask(VisualElement ve);
+
+	// RVA: 0x120D4 Offset: 0x120D4 VA: 0x120D4
+	public void Build(MeshGenerationContext mgc) { }
+
+	// RVA: -1 Offset: -1 Slot: 5
+	protected abstract void DrawVisualElementBackground(MeshGenerationContext mgc);
+
+	// RVA: -1 Offset: -1 Slot: 6
+	protected abstract void DrawVisualElementBorder(MeshGenerationContext mgc);
+------------------------------------------------------------
+
+[linha 257953]
+	internal XmlSchemaDatatype _Datatype; // 0x10
+	internal XdrBuilder.XdrBuildFunction _BuildFunc; // 0x14
+
+	// Methods
+
+	// RVA: 0xC0B2 Offset: 0xC0B2 VA: 0xC0B2
+	internal void .ctor(SchemaNames.Token a, XmlTokenizedType ttype, XdrBuilder.XdrBuildFunction build) { }
+
+	// RVA: 0xC0B3 Offset: 0xC0B3 VA: 0xC0B3
+	internal void .ctor(SchemaNames.Token a, XmlTokenizedType ttype, int schemaFlags, XdrBuilder.XdrBuildFunction build) { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 257956]
+	// Methods
+
+	// RVA: 0xC0B2 Offset: 0xC0B2 VA: 0xC0B2
+	internal void .ctor(SchemaNames.Token a, XmlTokenizedType ttype, XdrBuilder.XdrBuildFunction build) { }
+
+	// RVA: 0xC0B3 Offset: 0xC0B3 VA: 0xC0B3
+	internal void .ctor(SchemaNames.Token a, XmlTokenizedType ttype, int schemaFlags, XdrBuilder.XdrBuildFunction build) { }
+}
+
+// Namespace: 
+private sealed class XdrBuilder.XdrEntry // TypeDefIndex: 6180
+{
+	// Fields
+------------------------------------------------------------
+
+[linha 262687]
+	public SchemaNames.Token Attribute; // 0x8
+	public XsdBuilder.XsdBuildFunction BuildFunc; // 0xC
+
+	// Methods
+
+	// RVA: 0xC466 Offset: 0xC466 VA: 0xC466
+	public void .ctor(SchemaNames.Token a, XsdBuilder.XsdBuildFunction build) { }
+}
+
+// Namespace: 
+private sealed class XsdBuilder.XsdEntry // TypeDefIndex: 6297
+{
+	// Fields
+------------------------------------------------------------
+
+[linha 291315]
+	public const ProfilerCategoryColor Lighting = 9;
+	public const ProfilerCategoryColor GC = 10;
+	public const ProfilerCategoryColor VSync = 11;
+	public const ProfilerCategoryColor Memory = 12;
+	public const ProfilerCategoryColor Internal = 13;
+	public const ProfilerCategoryColor UI = 14;
+	public const ProfilerCategoryColor Build = 15;
+	public const ProfilerCategoryColor Input = 16;
+}
+
+// Namespace: 
+[IgnoredByDeepProfiler]
+[UsedByNativeCode]
+------------------------------------------------------------
+
+[linha 308641]
+[RequiredByNativeCode(GenerateProxy = True)]
+internal struct AssemblyVersion // TypeDefIndex: 7672
+{
+	// Fields
+	public ushort major; // 0x0
+	public ushort minor; // 0x2
+	public ushort build; // 0x4
+	public ushort revision; // 0x6
+
+	// Methods
+
+	// RVA: 0xDF18 Offset: 0xDF18 VA: 0xDF18
+	public static bool op_Equality(AssemblyVersion lhs, AssemblyVersion rhs) { }
+------------------------------------------------------------
+
+[linha 331171]
+	internal void NotifyAdded() { }
+
+	// RVA: 0x13C32 Offset: 0x13C32 VA: 0x13C32
+	internal void NotifyRemoved() { }
+
+	// RVA: -1 Offset: -1
+	internal static TDevice Build<TDevice>(string layoutName, string layoutVariants, InputDeviceDescription deviceDescription, bool noPrecompiledLayouts = False) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x1C7CF Offset: 0x1C7CF VA: 0x1C7CF
+	|-InputDevice.Build<object>
+	*/
+
+------------------------------------------------------------
+
+[linha 331175]
+
+	// RVA: -1 Offset: -1
+	internal static TDevice Build<TDevice>(string layoutName, string layoutVariants, InputDeviceDescription deviceDescription, bool noPrecompiledLayouts = False) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x1C7CF Offset: 0x1C7CF VA: 0x1C7CF
+	|-InputDevice.Build<object>
+	*/
+
+	// RVA: 0x13C33 Offset: 0x13C33 VA: 0x13C33
+	internal void WriteChangedControlStates(byte* deviceStateBuffer, void* statePtr, uint stateSizeInBytes, uint stateOffsetInDevice) { }
+
+	// RVA: 0x13C34 Offset: 0x13C34 VA: 0x13C34
+------------------------------------------------------------
+
+[linha 336008]
+	private string GetParentControlName(string name) { }
+
+	// RVA: 0x1407C Offset: 0x1407C VA: 0x1407C
+	private bool IsPoseControl(List<XRFeatureDescriptor> features, int startIndex) { }
+
+	// RVA: 0x1407D Offset: 0x1407D VA: 0x1407D
+	private InputControlLayout Build() { }
+
+	// RVA: 0x1407E Offset: 0x1407E VA: 0x1407E
+	public void .ctor() { }
+
+	// RVA: 0x1407F Offset: 0x1407F VA: 0x1407F
+	private static void .cctor() { }
+------------------------------------------------------------
+
+[linha 336505]
+	// Fields
+	public WebGLDeviceCapabilities capabilities; // 0x8
+
+	// Methods
+
+	// RVA: 0x140C4 Offset: 0x140C4 VA: 0x140C4
+	public InputControlLayout Build() { }
+
+	// RVA: 0x140C5 Offset: 0x140C5 VA: 0x140C5
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 337831]
+	private static void .cctor() { }
+
+	// RVA: 0x141BB Offset: 0x141BB VA: 0x141BB
+	public void .ctor() { }
+
+	// RVA: 0x141BC Offset: 0x141BC VA: 0x141BC
+	internal bool <Build>b__4_0(HID.HIDElementDescriptor element) { }
+
+	// RVA: 0x141BD Offset: 0x141BD VA: 0x141BD
+	internal bool <Build>b__4_1(HID.HIDElementDescriptor element) { }
+
+	// RVA: 0x141BE Offset: 0x141BE VA: 0x141BE
+	internal string <Build>b__4_2(InputControlLayout.ControlItem x) { }
+------------------------------------------------------------
+
+[linha 337834]
+	public void .ctor() { }
+
+	// RVA: 0x141BC Offset: 0x141BC VA: 0x141BC
+	internal bool <Build>b__4_0(HID.HIDElementDescriptor element) { }
+
+	// RVA: 0x141BD Offset: 0x141BD VA: 0x141BD
+	internal bool <Build>b__4_1(HID.HIDElementDescriptor element) { }
+
+	// RVA: 0x141BE Offset: 0x141BE VA: 0x141BE
+	internal string <Build>b__4_2(InputControlLayout.ControlItem x) { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 337837]
+	internal bool <Build>b__4_0(HID.HIDElementDescriptor element) { }
+
+	// RVA: 0x141BD Offset: 0x141BD VA: 0x141BD
+	internal bool <Build>b__4_1(HID.HIDElementDescriptor element) { }
+
+	// RVA: 0x141BE Offset: 0x141BE VA: 0x141BE
+	internal string <Build>b__4_2(InputControlLayout.ControlItem x) { }
+}
+
+// Namespace: 
+[Serializable]
+private class HID.HIDLayoutBuilder // TypeDefIndex: 8468
+{
+------------------------------------------------------------
+
+[linha 337853]
+	public string parentLayout; // 0x30
+	public Type deviceType; // 0x34
+
+	// Methods
+
+	// RVA: 0x141B8 Offset: 0x141B8 VA: 0x141B8
+	public InputControlLayout Build() { }
+
+	// RVA: 0x141B9 Offset: 0x141B9 VA: 0x141B9
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 342633]
+	public ReadOnlyArray<InputControlLayout.ControlItem> get_controls() { }
+
+	// RVA: 0x14436 Offset: 0x14436 VA: 0x14436
+	public InputControlLayout.Builder.ControlBuilder AddControl(string name) { }
+
+	// RVA: 0x14437 Offset: 0x14437 VA: 0x14437
+	public InputControlLayout Build() { }
+
+	// RVA: 0x14438 Offset: 0x14438 VA: 0x14438
+	public void .ctor() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 348001]
+	public override void AddStatus(X509ChainStatusFlags error) { }
+
+	// RVA: 0x8934 Offset: 0x8934 VA: 0x8934 Slot: 7
+	public override X509ChainPolicy get_ChainPolicy() { }
+
+	// RVA: 0x8935 Offset: 0x8935 VA: 0x8935 Slot: 8
+	public override bool Build(X509Certificate2 certificate) { }
+
+	// RVA: 0x8936 Offset: 0x8936 VA: 0x8936 Slot: 10
+	public override void Reset() { }
+
+	// RVA: 0x8937 Offset: 0x8937 VA: 0x8937 Slot: 11
+	protected override void Dispose(bool disposing) { }
+------------------------------------------------------------
+
+[linha 353851]
+	public X509ChainElementCollection get_ChainElements() { }
+
+	// RVA: 0x8D71 Offset: 0x8D71 VA: 0x8D71
+	public X509ChainPolicy get_ChainPolicy() { }
+
+	// RVA: 0x8D72 Offset: 0x8D72 VA: 0x8D72
+	public bool Build(X509Certificate2 certificate) { }
+
+	// RVA: 0x8D73 Offset: 0x8D73 VA: 0x8D73
+	public void Reset() { }
+
+	// RVA: 0x8D74 Offset: 0x8D74 VA: 0x8D74
+	public static X509Chain Create() { }
+------------------------------------------------------------
+
+[linha 353993]
+	public abstract X509ChainElementCollection get_ChainElements();
+
+	// RVA: -1 Offset: -1 Slot: 7
+	public abstract X509ChainPolicy get_ChainPolicy();
+
+	// RVA: -1 Offset: -1 Slot: 8
+	public abstract bool Build(X509Certificate2 certificate);
+
+	// RVA: -1 Offset: -1 Slot: 9
+	public abstract void AddStatus(X509ChainStatusFlags errorCode);
+
+	// RVA: -1 Offset: -1 Slot: 10
+	public abstract void Reset();
+------------------------------------------------------------
+
+[linha 354065]
+	public override X509ChainPolicy get_ChainPolicy() { }
+
+	// RVA: 0x8D95 Offset: 0x8D95 VA: 0x8D95 Slot: 9
+	public override void AddStatus(X509ChainStatusFlags error) { }
+
+	// RVA: 0x8D96 Offset: 0x8D96 VA: 0x8D96 Slot: 8
+	public override bool Build(X509Certificate2 certificate) { }
+
+	// RVA: 0x8D97 Offset: 0x8D97 VA: 0x8D97 Slot: 10
+	public override void Reset() { }
+
+	// RVA: 0x8D98 Offset: 0x8D98 VA: 0x8D98
+	private X509Certificate2Collection get_Roots() { }
+------------------------------------------------------------
+
+[linha 409311]
+	[HideInInspector]
+	private RenderGraphGlobalSettings.Version m_version; // 0x8
+	[SerializeField]
+	[Tooltip("Enable caching of render graph compilation from one frame to another.")]
+	private bool m_EnableCompilationCaching; // 0xC
+	[SerializeField]
+	[Tooltip("Enable validity checks of render graph in Editor and Development mode. Always disabled in Release build.")]
+	private bool m_EnableValidityChecks; // 0xD
+
+	// Properties
+	public bool enableCompilationCaching { get; }
+	public bool enableValidityChecks { get; }
+
+------------------------------------------------------------
+
+[linha 409503]
+	[HideInInspector]
+	private ShaderStrippingSetting.Version m_Version; // 0x8
+	[SerializeField]
+	[Tooltip("Controls whether to output shader variant information to a file.")]
+	private bool m_ExportShaderVariants; // 0xC
+	[SerializeField]
+	[Tooltip("Controls the level of logging of shader variant information outputted during the build process. Information appears in the Unity Console when the build finishes.")]
+	private ShaderVariantLogLevel m_ShaderVariantLogLevel; // 0x10
+	[SerializeField]
+	[Tooltip("When enabled, all debug display shader variants are removed when you build for the Unity Player. This decreases build time, but prevents the use of most Rendering Debugger features in Player builds.")]
+	private bool m_StripRuntimeDebugShaders; // 0x14
+
+	// Properties
+------------------------------------------------------------
+
+[linha 409506]
+	[Tooltip("Controls whether to output shader variant information to a file.")]
+	private bool m_ExportShaderVariants; // 0xC
+	[SerializeField]
+	[Tooltip("Controls the level of logging of shader variant information outputted during the build process. Information appears in the Unity Console when the build finishes.")]
+	private ShaderVariantLogLevel m_ShaderVariantLogLevel; // 0x10
+	[SerializeField]
+	[Tooltip("When enabled, all debug display shader variants are removed when you build for the Unity Player. This decreases build time, but prevents the use of most Rendering Debugger features in Player builds.")]
+	private bool m_StripRuntimeDebugShaders; // 0x14
+
+	// Properties
+	public ShaderVariantLogLevel shaderVariantLogLevel { get; set; }
+	public bool stripRuntimeDebugShaders { get; }
+
+------------------------------------------------------------
+
+[linha 496792]
+	*/
+
+	// RVA: 0x15C0E Offset: 0x15C0E VA: 0x15C0E
+	public void AddComponent(int propertyID, bool isOverriden, int byteSize, bool isPerInstance, InstanceType instanceType, InstanceComponentGroup componentGroup) { }
+
+	// RVA: 0x15C0F Offset: 0x15C0F VA: 0x15C0F
+	public GPUInstanceDataBuffer Build(in InstanceNumInfo instanceNumInfo) { }
+
+	// RVA: 0x15C10 Offset: 0x15C10 VA: 0x15C10 Slot: 4
+	public void Dispose() { }
+}
+
+// Namespace: 
+------------------------------------------------------------
+
+[linha 504490]
+	public void .ctor() { }
+
+	// RVA: 0x17AE7 Offset: 0x17AE7 VA: 0x17AE7
+	internal ITypeInspector BuildTypeInspector() { }
+
+	// RVA: 0x17AE8 Offset: 0x17AE8 VA: 0x17AE8
+	public IDeserializer Build() { }
+
+	// RVA: 0x17AE9 Offset: 0x17AE9 VA: 0x17AE9
+	public IValueDeserializer BuildValueDeserializer() { }
+
+	[CompilerGenerated]
+	// RVA: 0x17AEA Offset: 0x17AEA VA: 0x17AEA
+------------------------------------------------------------
+
+[linha 505778]
+	// Methods
+
+	// RVA: 0x17B47 Offset: 0x17B47 VA: 0x17B47
+	public void .ctor() { }
+
+	// RVA: 0x17B48 Offset: 0x17B48 VA: 0x17B48
+	public ISerializer Build() { }
+
+	// RVA: 0x17B49 Offset: 0x17B49 VA: 0x17B49
+	public IValueSerializer BuildValueSerializer() { }
+
+	// RVA: 0x17B4A Offset: 0x17B4A VA: 0x17B4A
+	internal ITypeInspector BuildTypeInspector() { }
+------------------------------------------------------------
+
+[linha 539504]
+	public X509CertificateCollection get_TrustAnchors() { }
+
+	// RVA: 0x7E98 Offset: 0x7E98 VA: 0x7E98
+	public void LoadCertificates(X509CertificateCollection collection) { }
+
+	// RVA: 0x7E99 Offset: 0x7E99 VA: 0x7E99
+	public bool Build(X509Certificate leaf) { }
+
+	// RVA: 0x7E9A Offset: 0x7E9A VA: 0x7E9A
+	public void Reset() { }
+
+	// RVA: 0x7E9B Offset: 0x7E9B VA: 0x7E9B
+	private bool IsValid(X509Certificate cert) { }
+------------------------------------------------------------
+
+=== [ HttpClientBuilder ] ===
+
+[linha 25877]
+	public const HttpClient.IgnoreType AssetVersion = 4;
+	public const HttpClient.IgnoreType Maintenance = 8;
+}
+
+// Namespace: 
+[CompilerGenerated]
+private sealed class HttpClient.HttpClientBuilder.<>c__DisplayClass8_0 // TypeDefIndex: 491
+{
+	// Fields
+	public HttpClient.HttpClientBuilder <>4__this; // 0x8
+	public ApiRequestBase _request; // 0xC
+	public bool isEncrypt; // 0x10
+	public string _uri; // 0x14
+------------------------------------------------------------
+
+[linha 25880]
+
+// Namespace: 
+[CompilerGenerated]
+private sealed class HttpClient.HttpClientBuilder.<>c__DisplayClass8_0 // TypeDefIndex: 491
+{
+	// Fields
+	public HttpClient.HttpClientBuilder <>4__this; // 0x8
+	public ApiRequestBase _request; // 0xC
+	public bool isEncrypt; // 0x10
+	public string _uri; // 0x14
+	public WebRequestClient request; // 0x18
+
+	// Methods
+------------------------------------------------------------
+
+[linha 25905]
+
+	// RVA: 0x21B4 Offset: 0x21B4 VA: 0x21B4
+	internal void <Build>b__3() { }
+}
+
+// Namespace: 
+private class HttpClient.HttpClientBuilder // TypeDefIndex: 492
+{
+	// Fields
+	[CompilerGenerated]
+	private readonly HttpClient <client>k__BackingField; // 0x8
+	[CompilerGenerated]
+	private readonly string <log>k__BackingField; // 0xC
+------------------------------------------------------------
+
+[linha 25950]
+
+	// RVA: 0x21AF Offset: 0x21AF VA: 0x21AF
+	protected void OutputResponseLog(string _prefix, string _url, string _method, WebRequestResponse _data) { }
+}
+
+// Namespace: 
+private class HttpClient.NoAuthHttpClientBuilder : HttpClient.HttpClientBuilder // TypeDefIndex: 493
+{
+	// Methods
+
+	// RVA: 0x21B5 Offset: 0x21B5 VA: 0x21B5
+	public void .ctor(HttpClient _client, string _log) { }
+
+------------------------------------------------------------
+
+[linha 25962]
+
+	// RVA: 0x21B6 Offset: 0x21B6 VA: 0x21B6 Slot: 4
+	protected override void ModifyHeader(WebRequestClient _request) { }
+}
+
+// Namespace: 
+private class HttpClient.RegisterHttpClientBuilder : HttpClient.HttpClientBuilder // TypeDefIndex: 494
+{
+	// Fields
+	[CompilerGenerated]
+	private readonly string <uuid>k__BackingField; // 0x10
+	[CompilerGenerated]
+	private readonly string <password>k__BackingField; // 0x14
+------------------------------------------------------------
+
+=== [ WebRequestClient ] ===
+
+[linha 25884]
+{
+	// Fields
+	public HttpClient.HttpClientBuilder <>4__this; // 0x8
+	public ApiRequestBase _request; // 0xC
+	public bool isEncrypt; // 0x10
+	public string _uri; // 0x14
+	public WebRequestClient request; // 0x18
+
+	// Methods
+
+	// RVA: 0x21B0 Offset: 0x21B0 VA: 0x21B0
+	public void .ctor() { }
+
+------------------------------------------------------------
+
+[linha 25931]
+	protected string get_log() { }
+
+	// RVA: 0x21A9 Offset: 0x21A9 VA: 0x21A9
+	public void .ctor(HttpClient _client, string _log) { }
+
+	// RVA: 0x21AA Offset: 0x21AA VA: 0x21AA
+	public WebRequestClient Build(string _uri, ApiRequestBase _request) { }
+
+	// RVA: 0x21AB Offset: 0x21AB VA: 0x21AB
+	private byte[] EncryptoBody(byte[] _ck, byte[] _body) { }
+
+	// RVA: 0x21AC Offset: 0x21AC VA: 0x21AC
+	private byte[] DecryptoBody(byte[] _ck, byte[] _body) { }
+------------------------------------------------------------
+
+[linha 25940]
+	private byte[] EncryptoBody(byte[] _ck, byte[] _body) { }
+
+	// RVA: 0x21AC Offset: 0x21AC VA: 0x21AC
+	private byte[] DecryptoBody(byte[] _ck, byte[] _body) { }
+
+	// RVA: 0x21AD Offset: 0x21AD VA: 0x21AD Slot: 4
+	protected virtual void ModifyHeader(WebRequestClient _request) { }
+
+	// RVA: 0x21AE Offset: 0x21AE VA: 0x21AE
+	private void ResponseActionInvoke(ActionList<BaseResponse> action, WebRequestResponse _data) { }
+
+	// RVA: 0x21AF Offset: 0x21AF VA: 0x21AF
+	protected void OutputResponseLog(string _prefix, string _url, string _method, WebRequestResponse _data) { }
+------------------------------------------------------------
+
+[linha 25958]
+	// Methods
+
+	// RVA: 0x21B5 Offset: 0x21B5 VA: 0x21B5
+	public void .ctor(HttpClient _client, string _log) { }
+
+	// RVA: 0x21B6 Offset: 0x21B6 VA: 0x21B6 Slot: 4
+	protected override void ModifyHeader(WebRequestClient _request) { }
+}
+
+// Namespace: 
+private class HttpClient.RegisterHttpClientBuilder : HttpClient.HttpClientBuilder // TypeDefIndex: 494
+{
+	// Fields
+------------------------------------------------------------
+
+[linha 25988]
+	private string get_password() { }
+
+	// RVA: 0x21B9 Offset: 0x21B9 VA: 0x21B9
+	public void .ctor(HttpClient _client, string _uuid, string _password, string _log) { }
+
+	// RVA: 0x21BA Offset: 0x21BA VA: 0x21BA Slot: 4
+	protected override void ModifyHeader(WebRequestClient _request) { }
+}
+
+// Namespace: 
+[CompilerGenerated]
+private sealed class HttpClient.<AuthWWW>d__44 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 495
+{
+------------------------------------------------------------
+
+[linha 26129]
+	[CompilerGenerated]
+	private string <loginID>k__BackingField; // 0x14
+	[CompilerGenerated]
+	private int <retryCount>k__BackingField; // 0x18
+	private static readonly int kMaxRetryCount; // 0x0
+	[CompilerGenerated]
+	private List<WebRequestClient> <requestQueue>k__BackingField; // 0x1C
+	private byte[] ck; // 0x20
+	private RSACryptoServiceProvider csp; // 0x24
+	[CompilerGenerated]
+	private HttpClient.IgnoreType <ignoreType>k__BackingField; // 0x28
+
+	// Properties
+------------------------------------------------------------
+
+[linha 26143]
+	public string uuid { get; }
+	private string token { get; set; }
+	public int timeout { get; }
+	public LanguageType language { get; }
+	public string loginID { get; set; }
+	private int retryCount { get; set; }
+	private List<WebRequestClient> requestQueue { get; }
+	public HttpClient.IgnoreType ignoreType { get; }
+
+	// Methods
+
+	[CompilerGenerated]
+	// RVA: 0x218D Offset: 0x218D VA: 0x218D
+------------------------------------------------------------
+
+[linha 26192]
+	[CompilerGenerated]
+	// RVA: 0x2197 Offset: 0x2197 VA: 0x2197
+	private void set_retryCount(int value) { }
+
+	[CompilerGenerated]
+	// RVA: 0x2198 Offset: 0x2198 VA: 0x2198
+	private List<WebRequestClient> get_requestQueue() { }
+
+	[CompilerGenerated]
+	// RVA: 0x2199 Offset: 0x2199 VA: 0x2199
+	public HttpClient.IgnoreType get_ignoreType() { }
+
+	// RVA: 0x219A Offset: 0x219A VA: 0x219A Slot: 10
+------------------------------------------------------------
+
+[linha 26269]
+// Namespace: YT
+public static class HeaderParameterEditor // TypeDefIndex: 500
+{
+	// Methods
+
+	// RVA: 0x21D2 Offset: 0x21D2 VA: 0x21D2
+	public static void AddEditorParameterToHeader(WebRequestClient _request) { }
+}
+
+// Namespace: YT
+public class LocalMessagingService // TypeDefIndex: 501
+{
+	// Fields
+------------------------------------------------------------
+
+[linha 96861]
+	private ActionList<T> m_OnSuccess; // 0x0
+	private ActionList<BaseResponse> m_OnError; // 0x0
+
+	// Methods
+
+	// RVA: -1 Offset: -1
+	public void .ctor(string _baseUri, string _uri, object _requestBody, WebRequestClient.HttpMethodType _methodType) { }
+	/* GenericInstMethod :
+	|
+	|-RVA: 0x1AE31 Offset: 0x1AE31 VA: 0x1AE31
+	|-ApiRequest<object>..ctor
+	*/
+
+------------------------------------------------------------
+
+[linha 96967]
+	[CompilerGenerated]
+	private object <requestBody>k__BackingField; // 0x14
+	[CompilerGenerated]
+	private byte[] <contents>k__BackingField; // 0x18
+	private bool m_Encrypt; // 0x1C
+	[CompilerGenerated]
+	private WebRequestClient.HttpMethodType <methodType>k__BackingField; // 0x20
+
+	// Properties
+	public ApiCallback callback { get; }
+	public string baseUri { get; set; }
+	public string uri { get; set; }
+	public object requestBody { get; set; }
+------------------------------------------------------------
+
+[linha 96975]
+	// Properties
+	public ApiCallback callback { get; }
+	public string baseUri { get; set; }
+	public string uri { get; set; }
+	public object requestBody { get; set; }
+	public byte[] contents { get; set; }
+	public WebRequestClient.HttpMethodType methodType { get; set; }
+
+	// Methods
+
+	[CompilerGenerated]
+	// RVA: 0x511A Offset: 0x511A VA: 0x511A
+	public ApiCallback get_callback() { }
+------------------------------------------------------------
+
+[linha 97017]
+	[CompilerGenerated]
+	// RVA: 0x5122 Offset: 0x5122 VA: 0x5122
+	public void set_contents(byte[] value) { }
+
+	[CompilerGenerated]
+	// RVA: 0x5123 Offset: 0x5123 VA: 0x5123
+	public WebRequestClient.HttpMethodType get_methodType() { }
+
+	[CompilerGenerated]
+	// RVA: 0x5124 Offset: 0x5124 VA: 0x5124
+	public void set_methodType(WebRequestClient.HttpMethodType value) { }
+
+	// RVA: 0x5125 Offset: 0x5125 VA: 0x5125
+------------------------------------------------------------
+
+[linha 97021]
+	[CompilerGenerated]
+	// RVA: 0x5123 Offset: 0x5123 VA: 0x5123
+	public WebRequestClient.HttpMethodType get_methodType() { }
+
+	[CompilerGenerated]
+	// RVA: 0x5124 Offset: 0x5124 VA: 0x5124
+	public void set_methodType(WebRequestClient.HttpMethodType value) { }
+
+	// RVA: 0x5125 Offset: 0x5125 VA: 0x5125
+	protected void .ctor(string _baseUri, string _uri, object _requestBody, WebRequestClient.HttpMethodType _methodType) { }
+
+	// RVA: 0x5126 Offset: 0x5126 VA: 0x5126
+	public void SetNoEncrypt() { }
+------------------------------------------------------------
+
+[linha 97024]
+
+	[CompilerGenerated]
+	// RVA: 0x5124 Offset: 0x5124 VA: 0x5124
+	public void set_methodType(WebRequestClient.HttpMethodType value) { }
+
+	// RVA: 0x5125 Offset: 0x5125 VA: 0x5125
+	protected void .ctor(string _baseUri, string _uri, object _requestBody, WebRequestClient.HttpMethodType _methodType) { }
+
+	// RVA: 0x5126 Offset: 0x5126 VA: 0x5126
+	public void SetNoEncrypt() { }
+
+	// RVA: 0x5127 Offset: 0x5127 VA: 0x5127
+	public bool IsEncrypt() { }
+------------------------------------------------------------
+
+[linha 107635]
+
+	// RVA: 0x58F4 Offset: 0x58F4 VA: 0x58F4
+	public void .ctor() { }
+}
+
+// Namespace: 
+public enum WebRequestClient.HttpMethodType // TypeDefIndex: 2510
+{
+	// Fields
+	public int value__; // 0x0
+	public const WebRequestClient.HttpMethodType GET = 0;
+	public const WebRequestClient.HttpMethodType POST = 1;
+}
+------------------------------------------------------------
+
+[linha 107639]
+
+// Namespace: 
+public enum WebRequestClient.HttpMethodType // TypeDefIndex: 2510
+{
+	// Fields
+	public int value__; // 0x0
+	public const WebRequestClient.HttpMethodType GET = 0;
+	public const WebRequestClient.HttpMethodType POST = 1;
+}
+
+// Namespace: 
+[CompilerGenerated]
+private sealed class WebRequestClient.<RequestCoroutine>d__69 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 2511
+------------------------------------------------------------
+
+[linha 107640]
+// Namespace: 
+public enum WebRequestClient.HttpMethodType // TypeDefIndex: 2510
+{
+	// Fields
+	public int value__; // 0x0
+	public const WebRequestClient.HttpMethodType GET = 0;
+	public const WebRequestClient.HttpMethodType POST = 1;
+}
+
+// Namespace: 
+[CompilerGenerated]
+private sealed class WebRequestClient.<RequestCoroutine>d__69 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 2511
+{
+------------------------------------------------------------
+
+[linha 107645]
+	public const WebRequestClient.HttpMethodType GET = 0;
+	public const WebRequestClient.HttpMethodType POST = 1;
+}
+
+// Namespace: 
+[CompilerGenerated]
+private sealed class WebRequestClient.<RequestCoroutine>d__69 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 2511
+{
+	// Fields
+	private int <>1__state; // 0x8
+	private object <>2__current; // 0xC
+	public WebRequestClient <>4__this; // 0x10
+	private float <connectStartTime>5__2; // 0x14
+------------------------------------------------------------
+
+[linha 107650]
+[CompilerGenerated]
+private sealed class WebRequestClient.<RequestCoroutine>d__69 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 2511
+{
+	// Fields
+	private int <>1__state; // 0x8
+	private object <>2__current; // 0xC
+	public WebRequestClient <>4__this; // 0x10
+	private float <connectStartTime>5__2; // 0x14
+
+	// Properties
+	private object System.Collections.Generic.IEnumerator<System.Object>.Current { get; }
+	private object System.Collections.IEnumerator.Current { get; }
+
+------------------------------------------------------------
+
+[linha 107684]
+	[DebuggerHidden]
+	// RVA: 0x591F Offset: 0x591F VA: 0x591F Slot: 7
+	private object System.Collections.IEnumerator.get_Current() { }
+}
+
+// Namespace: Fw
+public class WebRequestClient : IDisposable // TypeDefIndex: 2512
+{
+	// Fields
+	private static readonly ReadOnlyCollection<int> kErrorStatusCodeTimeout; // 0x0
+	private ActionList<WebRequestResponse> m_OnComplete; // 0x8
+	private ActionList<WebRequestResponse> m_OnFailed; // 0xC
+	private ActionList<WebRequestResponse> m_OnTimeout; // 0x10
+------------------------------------------------------------
+
+[linha 107693]
+	private static readonly ReadOnlyCollection<int> kErrorStatusCodeTimeout; // 0x0
+	private ActionList<WebRequestResponse> m_OnComplete; // 0x8
+	private ActionList<WebRequestResponse> m_OnFailed; // 0xC
+	private ActionList<WebRequestResponse> m_OnTimeout; // 0x10
+	private ActionList m_OnDispose; // 0x14
+	[CompilerGenerated]
+	private WebRequestClient.HttpMethodType <httpMethodType>k__BackingField; // 0x18
+	[CompilerGenerated]
+	private MonoBehaviour <coroutineDispatcher>k__BackingField; // 0x1C
+	[CompilerGenerated]
+	private string <url>k__BackingField; // 0x20
+	[CompilerGenerated]
+	private UnityWebRequest <www>k__BackingField; // 0x24
+------------------------------------------------------------
+
+[linha 107713]
+	private bool <disposed>k__BackingField; // 0x34
+	private int m_timeout; // 0x38
+	[CompilerGenerated]
+	private static readonly List<string> <timeoutAdjustUrlList>k__BackingField; // 0x4
+
+	// Properties
+	private WebRequestClient.HttpMethodType httpMethodType { get; set; }
+	private MonoBehaviour coroutineDispatcher { get; set; }
+	private string url { get; set; }
+	private UnityWebRequest www { get; set; }
+	private List<IMultipartFormSection> formSections { get; set; }
+	private Dictionary<string, string> headers { get; }
+	private byte[] postData { get; set; }
+------------------------------------------------------------
+
+[linha 107752]
+
+	// RVA: 0x58FC Offset: 0x58FC VA: 0x58FC
+	public void remove_onDisposeEvent(Action value) { }
+
+	[CompilerGenerated]
+	// RVA: 0x58FD Offset: 0x58FD VA: 0x58FD
+	private WebRequestClient.HttpMethodType get_httpMethodType() { }
+
+	[CompilerGenerated]
+	// RVA: 0x58FE Offset: 0x58FE VA: 0x58FE
+	private void set_httpMethodType(WebRequestClient.HttpMethodType value) { }
+
+	[CompilerGenerated]
+------------------------------------------------------------
+
+[linha 107756]
+	[CompilerGenerated]
+	// RVA: 0x58FD Offset: 0x58FD VA: 0x58FD
+	private WebRequestClient.HttpMethodType get_httpMethodType() { }
+
+	[CompilerGenerated]
+	// RVA: 0x58FE Offset: 0x58FE VA: 0x58FE
+	private void set_httpMethodType(WebRequestClient.HttpMethodType value) { }
+
+	[CompilerGenerated]
+	// RVA: 0x58FF Offset: 0x58FF VA: 0x58FF
+	private MonoBehaviour get_coroutineDispatcher() { }
+
+	[CompilerGenerated]
+------------------------------------------------------------
+
+[linha 107821]
+
+	[CompilerGenerated]
+	// RVA: 0x590E Offset: 0x590E VA: 0x590E
+	private static List<string> get_timeoutAdjustUrlList() { }
+
+	// RVA: 0x590F Offset: 0x590F VA: 0x590F
+	public void .ctor(MonoBehaviour _coroutineDispatcher, string _url, WebRequestClient.HttpMethodType _httpMethod = 0) { }
+
+	// RVA: 0x5910 Offset: 0x5910 VA: 0x5910
+	public void AddHeader(string _headerName, string _value) { }
+
+	// RVA: 0x5911 Offset: 0x5911 VA: 0x5911
+	public void SetPostData(byte[] _data) { }
+------------------------------------------------------------
+
+[linha 114531]
+	private void OnSucceededSession(AdjustSessionSuccess _result) { }
+
+	// RVA: 0x5C2C Offset: 0x5C2C VA: 0x5C2C
+	private void OnFailedSession(AdjustSessionFailure _result) { }
+
+	// RVA: 0x5C2D Offset: 0x5C2D VA: 0x5C2D
+	public void ModifyRequestHeader(WebRequestClient _request) { }
+
+	// RVA: 0x5C2E Offset: 0x5C2E VA: 0x5C2E
+	public void OpenedWithDeepLink(string _linkUrl) { }
+
+	// RVA: 0x5C2F Offset: 0x5C2F VA: 0x5C2F
+	private void HandleDeepLinkUrl(string _linkUrl) { }
+------------------------------------------------------------
+
+✅ Busca finalizada.
